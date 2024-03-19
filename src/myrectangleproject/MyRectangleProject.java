@@ -84,7 +84,7 @@ public class MyRectangleProject
         Scanner scanner = new Scanner(System.in);
         
         // Ask user if they would like to make a new calculation
-        System.out.println("Would you like to make " + "a new calculation (Y/N)?");
+        System.out.println("\u001B[32mWould you like to make " + "a new calculation (Y/N)?");
         String answer = scanner.nextLine();
         
         // Using an if statement to check whether the user wants to restart
